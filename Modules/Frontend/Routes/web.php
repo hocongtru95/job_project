@@ -11,6 +11,8 @@
 |
 */
 
-Route::prefix('frontend')->group(function() {
-    Route::get('/', 'FrontendController@index');
-});
+Route::get('/', 'HomeController@home')->name('home');
+
+Route::get('/jobs/{part_url}', 'JobController@showDetailJobs')->where(['part_url' => '[a-zA-Z0-9_-]+']);
+Route::get('/jobs-category/{part_url}', 'JobController@showListsItemBySlug')->where(['part_url' => '[a-zA-Z0-9_-]+']);
+Route::get('/search', 'SearchJobsController@searchShowResult')->name('search_jobs');

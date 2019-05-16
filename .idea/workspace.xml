@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="572fee31-6567-48f8-907f-b63d2b68a483" name="Default Changelist" comment="" />
+    <list default="true" id="572fee31-6567-48f8-907f-b63d2b68a483" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Admin/Repositories/CategoryToJob/CategoryToJobRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Admin/Repositories/CategoryToJob/CategoryToJobRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Admin/Repositories/Job/JobRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Frontend/Repositories/Category/CategoryRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Frontend/Repositories/Job/JobRepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/views/jobs/job_category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/views/layouts/search_layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/job_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/job_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Repositories/EloquentRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Repositories/PostEloquentRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Repositories/PostRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Repositories/RepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Admin/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Admin/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/FrontendController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Providers/FrontendServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Providers/FrontendServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Resources/assets/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/assets/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Frontend/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/Routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Frontend/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Frontend/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/modules.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,39 +63,80 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Frontend/Http/Controllers/SearchJobsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="391">
+              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/CategoryController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
               <folding>
-                <element signature="e#7#389#0#PHP" expanded="true" />
+                <element signature="e#50#78#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/RouteServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1327" />
+            <state relative-caret-position="323">
+              <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+              <folding>
+                <element signature="e#50#63#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Job/JobRepositoryInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Job/JobRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryRepositoryInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -54,41 +144,103 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logout</find>
-      <find>Ready Dashboard</find>
-      <find>Bordered Table</find>
-      <find>w_100</find>
-      <find>năm</find>
-      <find>all tic</find>
+      <find>regis</find>
+      <find>catego</find>
+      <find>cate</find>
+      <find>list</find>
+      <find>listCategory</find>
+      <find>cat_title</find>
+      <find>job_sl</find>
+      <find>return this</find>
+      <find>return</find>
+      <find>where</find>
+      <find>where(</find>
+      <find>findw</find>
+      <find>footer_search_job</find>
+      <find>tip</find>
+      <find>getCategory</find>
+      <find>quản lý vi</find>
+      <find>bootstrap notifi</find>
+      <find>loại hình</find>
+      <find>desc</find>
+      <find>xem tat</find>
+      <find>hero-demo</find>
+      <find>getCategoryByItemId</find>
+      <find>jobs_list__item</find>
+      <find>-&gt;where</find>
+      <find>$this-&gt;categoryJobsController</find>
+      <find>cateRepository</find>
+      <find>delete</find>
+      <find>jobs.jobs_c</find>
+      <find>create</find>
+      <find>$this-&gt;repository</find>
     </findStrings>
+    <replaceStrings>
+      <replace>{{ asset('Modules/Frontend/Resources/assets/images/news3.jpg') }}</replace>
+      <replace>$this-&gt;cateRepository</replace>
+      <replace>categoryRepository</replace>
+      <replace>C</replace>
+      <replace>$this-&gt;categoryRepository</replace>
+      <replace>$this-&gt;jobRepository</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Jobs/Routes/web.php" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Resources/assets/sass/pages/_detail.scss" />
         <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/_base.scss" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_add.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Routes/web.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_list.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobsController.php" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/RepositoryInterFace.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/EloquentRepository.php" />
+        <option value="D:/WWWWEEEPPPPPPPP/123Job training/project/vietnam_location/vietnam_location.sql" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Resources/assets/sass/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Resources/views/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/SearchJobsController.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/JobRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Routes/breadcrumbs.php" />
+        <option value="$PROJECT_DIR$/routes/breadcrumbs.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Resources/views/jobs/job_detail.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Resources/assets/sass/pages/_search.scss" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Resources/views/jobs/job_category.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/JobsController.php" />
+        <option value="$PROJECT_DIR$/vendor/prettus/l5-repository/src/Prettus/Repository/Eloquent/BaseRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Repositories/JobRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/Jobs_category/category_list.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_form.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryJobRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Http/Controllers/CategoryJobsController.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobsController.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Entities/CategoryJobs.php" />
+        <option value="$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs/config/breadcrumbs.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Entities/Categorytojob.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Entities/Jobs.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Entities/CategoryToJob.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/CategoryToJob/CategoryToJobRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/CategoryToJob/CategoryToJobRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Providers/FrontendServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/CategoryJobsController.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Repositories/Category/CategoryRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Repositories/Category/CategoryRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Repositories/Job/JobRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Repositories/Job/JobRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/Modules/Frontend/Http/Controllers/JobController.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Http/Controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/Job/JobRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Repositories/Job/JobRepository.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobController.php" />
       </list>
     </option>
   </component>
@@ -175,6 +327,8 @@
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
       <path value="$PROJECT_DIR$/vendor/nwidart/laravel-modules" />
+      <path value="$PROJECT_DIR$/vendor/prettus/laravel-validation" />
+      <path value="$PROJECT_DIR$/vendor/prettus/l5-repository" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -182,6 +336,7 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -203,8 +358,7 @@
             <path>
               <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="job_project" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
@@ -222,7 +376,47 @@
               <item name="job_project" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="Category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="Job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job_project" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -237,6 +431,16 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\job_project\Modules\Frontend\Repositories\Job" />
+      <recent name="C:\xampp\htdocs\job_project\Modules\Frontend\Repositories\Category" />
+      <recent name="C:\xampp\htdocs\job_project\Modules\Admin\Resources\views" />
+      <recent name="C:\xampp\htdocs\job_project\Modules\Admin\Repositories\Job" />
+      <recent name="C:\xampp\htdocs\job_project\Modules\Admin\Repositories\Category" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,11 +472,38 @@
       <updated>1555473604692</updated>
       <workItem from="1555473606378" duration="20657000" />
       <workItem from="1555517510006" duration="1806000" />
+      <workItem from="1555552245454" duration="26043000" />
+      <workItem from="1555606680930" duration="605000" />
+      <workItem from="1555637856151" duration="30675000" />
+      <workItem from="1555691056809" duration="596000" />
+      <workItem from="1555722972071" duration="13189000" />
+      <workItem from="1555885649317" duration="583000" />
+      <workItem from="1555886336832" duration="7276000" />
+      <workItem from="1555896770925" duration="28388000" />
+      <workItem from="1555947669151" duration="604000" />
+      <workItem from="1555983381553" duration="26181000" />
+      <workItem from="1556069552771" duration="10030000" />
+      <workItem from="1556086194270" duration="11020000" />
+      <workItem from="1556155794879" duration="5710000" />
+      <workItem from="1556162764076" duration="2597000" />
+      <workItem from="1556173966216" duration="3558000" />
+      <workItem from="1556276097432" duration="375000" />
+      <workItem from="1556277148532" duration="1777000" />
+      <workItem from="1556726801963" duration="1465000" />
+      <workItem from="1556752722313" duration="5836000" />
+      <workItem from="1556839830719" duration="3637000" />
+      <workItem from="1556844147486" duration="1604000" />
+      <workItem from="1556879264430" duration="725000" />
+      <workItem from="1556881936499" duration="1183000" />
+      <workItem from="1556899249628" duration="7399000" />
+      <workItem from="1556946523000" duration="1530000" />
+      <workItem from="1557102217620" duration="619000" />
+      <workItem from="1557109169476" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22463000" />
+    <option name="totallyTimeSpent" value="216266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,7 +519,7 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2193646" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -296,7 +527,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.36824876" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -312,337 +543,325 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Layouts/master.blade.php" />
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Jobs/Routes/web.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Routes/breadcrumbs.php" />
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="136">
+          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs/composer.json" />
+    <entry file="file://$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs/src/Facades/Breadcrumbs.php" />
+    <entry file="https://schemastore.azurewebsites.net/schemas/json/composer.json">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Resources/views/jobs/job_detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsManager.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsGenerator.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php" />
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Resources/views/jobs/job_category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Resources/assets/sass/pages/_search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="231" column="32" selection-start-line="231" selection-start-column="32" selection-end-line="231" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/breadcrumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Category/category_add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Category/category_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Category/category_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="48" selection-start-line="102" selection-start-column="48" selection-end-line="102" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Container/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/davejamesmiller/laravel-breadcrumbs/config/breadcrumbs.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#38#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Entities/CategoryJobs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Mix.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="578" column="21" selection-start-line="578" selection-start-column="21" selection-end-line="578" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/master.blade.php" />
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="e#33#71#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/console.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/channels.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2024">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../test/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../demo_laravel2/resources/views/ticket/layout/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="115" column="65" selection-start-line="115" selection-start-column="61" selection-end-line="115" selection-end-column="65" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WWWWEEEPPPPPPPP/123Job training/project/Ready-Bootstrap-Dashboard-master/Ready-Bootstrap-Dashboard-master/examples/tables.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2270">
-          <caret line="564" column="38" selection-start-line="564" selection-start-column="38" selection-end-line="564" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/WWWWEEEPPPPPPPP/123Job training/project/Ready-Bootstrap-Dashboard-master/Ready-Bootstrap-Dashboard-master/examples/components.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/webpack.mix.js">
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/CategoryToJob/CategoryToJobRepositoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/CategoryToJob/CategoryToJobRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_base.scss">
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Entities/Jobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Entities/CategoryToJob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Providers/FrontendServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="67" lean-forward="true" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/prettus/l5-repository/src/Prettus/Repository/Eloquent/BaseRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6613">
+          <caret line="407" column="54" selection-start-line="407" selection-start-column="54" selection-end-line="407" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Repositories/Category/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Repositories/Job/JobRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Repositories/Category/CategoryRepositoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_add.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="129" selection-end-column="11" />
+        <state relative-caret-position="697">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
-            <element signature="e#125#6511#0#HTML" />
-            <element signature="e#2144#2733#0#HTML" />
-            <element signature="e#2758#3098#0#HTML" />
+            <element signature="e#53#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_list.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="61" selection-start-line="35" selection-start-column="61" selection-end-line="35" selection-end-column="61" />
+        <state relative-caret-position="1394">
+          <caret line="82" column="66" selection-start-line="82" selection-start-column="66" selection-end-line="82" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/Jobs/job_edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Http/Controllers/JobController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="1190">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding>
-            <element signature="e#2343#2972#0#HTML" />
-            <element signature="e#3001#3361#0#HTML" />
+            <element signature="e#53#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../demo_laravel2/app/Repositories/RepositoryInterface.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Http/Controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#53#87#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/EloquentRepository.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Repositories/Job/JobRepositoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobsController.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="413">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding>
+            <element signature="e#43#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Frontend/Http/Controllers/SearchJobsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
           <folding>
             <element signature="e#50#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="175" column="18" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/RepositoryInterFace.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../demo_laravel2/app/Repositories/EloquentRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="67" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="67" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/RouteServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Job/JobRepositoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1327" />
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Job/JobRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Repositories/Category/CategoryRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Http/Controllers/JobController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding>
+            <element signature="e#50#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

@@ -29,6 +29,30 @@ class AdminServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->register(RouteServiceProvider::class);
+
+        /**
+         * Register category repository interface
+         */
+        $this->app->singleton(
+            \Modules\Admin\Repositories\Category\CategoryRepositoryInterface::class,
+            \Modules\Admin\Repositories\Category\CategoryRepository::class
+        );
+
+        /**
+         * Register job repository interface
+         */
+        $this->app->singleton(
+            \Modules\Admin\Repositories\Job\JobRepositoryInterface::class,
+            \Modules\Admin\Repositories\Job\JobRepository::class
+        );
+
+        /**
+         * Register category to job repository interface
+         */
+        $this->app->singleton(
+            \Modules\Admin\Repositories\CategoryToJob\CategoryToJobRepositoryInterface::class,
+            \Modules\Admin\Repositories\CategoryToJob\CategoryToJobRepository::class
+        );
     }
 
     /**

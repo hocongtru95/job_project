@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Ready Bootstrap Dashboard</title>
+    <title>Admin Page</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <link rel="stylesheet" href="{{asset('public/admin_dashboard/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
@@ -11,14 +12,20 @@
     <link rel="stylesheet" href="{{asset('public/admin_dashboard/css/simplemde.min.css')}}">
     <link rel="stylesheet" href="{{asset('public/css/app.css')}}">
     <script src="{{asset('public/admin_dashboard/js/simplemde.min.js')}}"></script>
+
+
 </head>
 <body>
 <div class="wrapper">
+
+
+
     <div class="main-header">
         <div class="logo-header">
             <a href="index.html" class="logo">
                 Quản trị nội dung
             </a>
+
             <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,16 +34,8 @@
         <nav class="navbar navbar-header navbar-expand-lg">
             <div class="container-fluid">
 
-                <form class="navbar-left navbar-form nav-search mr-md-3" action="">
-                    <div class="input-group">
-                        <input type="text" placeholder="Search ..." class="form-control">
-                        <div class="input-group-append">
-								<span class="input-group-text">
-									<i class="la la-search search-icon"></i>
-								</span>
-                        </div>
-                    </div>
-                </form>
+                @yield('search_header')
+
                 <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
                     <li class="nav-item dropdown hidden-caret">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -179,20 +178,20 @@
                     <a data-toggle="collapse" href="#collapseJobs" aria-expanded="true">
                         <i class="la la-folder"></i>
                         <p>Quản lý việc làm</p>
-                        <span class="badge badge-count">5</span>
+                        <span class="badge badge-count"></span>
                     </a>
                     <div class="collapse in" id="collapseJobs" aria-expanded="true" style="padding-left: 15px;">
                         <ul class="nav">
                             <li><a href="{{ route('jobs_list') }}">Danh sách việc làm</a></li>
-                            <li><a href="">Danh mục nghành nghề</a></li>
+                            <li><a href="{{ route('category_jobs_list') }}">Danh mục nghành nghề</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item active">
                     <a data-toggle="collapse" href="#collapseJobs2" aria-expanded="true">
                         <i class="la la-folder"></i>
-                        <p>Quản lý việc làm</p>
-                        <span class="badge badge-count">5</span>
+                        <p>Quản lý module test</p>
+                        <span class="badge badge-count"></span>
                     </a>
                     <div class="collapse in" id="collapseJobs2" aria-expanded="true" style="padding-left: 15px;">
                         <ul class="nav">
@@ -279,5 +278,31 @@
 <script src="{{asset('public/admin_dashboard/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js')}}"></script>
 <script src="{{asset('public/admin_dashboard/js/ready.min.js')}}"></script>
 <script src="{{asset('public/admin_dashboard/js/demo.js')}}"></script>
+<script src="{{asset('public/admin_dashboard/js/notify.min.js')}}"></script>
+<script src="{{asset('Modules/Admin/Resources/assets/js/admin.js')}}"></script>
+
+@if (session()->has('successMsg'))
+    <script>
+        $mess = '{{ session('successMsg') }}';
+        $.notify($mess, 'success');
+    </script>
+@endif
+@if (session()->has('errorMsg'))
+    <script>
+        $mess = '{{ session('errorMsg') }}';
+        $.notify($mess, 'errorMsg');
+    </script>
+@endif
+@if ($errors->any())
+    <script>
+        $mess = 'Có lỗi xảy ra, vui lòng kiểm tra lại các trường dữ liệu';
+        $.notify($mess);
+    </script>
+@endif
+<script>
+    var simplemde = new SimpleMDE({ element: document.getElementById("job_description") });
+    var simplemde = new SimpleMDE({ element: document.getElementById("job_company_description") });
+    var simplemde = new SimpleMDE({ element: document.getElementById("job_detail") });
+</script>
 
 </html>

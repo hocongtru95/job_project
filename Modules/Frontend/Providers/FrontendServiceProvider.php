@@ -29,6 +29,21 @@ class FrontendServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->register(RouteServiceProvider::class);
+
+        /**
+         * Register category repostory interface
+         */
+        $this->app->singleton(
+            \Modules\Frontend\Repositories\Category\CategoryRepositoryInterface::class,
+            \Modules\Frontend\Repositories\Category\CategoryRepository::class
+        );
+        /**
+         * Register job repostory interface
+         */
+        $this->app->singleton(
+            \Modules\Frontend\Repositories\Job\JobRepositoryInterface::class,
+            \Modules\Frontend\Repositories\Job\JobRepository::class
+        );
     }
 
     /**

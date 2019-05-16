@@ -1,0 +1,293 @@
+﻿header {
+
+  .bg_header {
+    height: 100vh;
+    background: #141f72;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #8b91dd;
+      background: linear-gradient(45deg,#8b91dd 0,#10195d 71%,#10195d 100%);
+      opacity: .8;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('../images/lines.png');
+      opacity: .1;
+      z-index: 3;
+    }
+  }
+
+  .header__logo {
+    margin-top: 20px;
+    display: inline-block;
+    z-index: 999;
+
+    img {
+      width: 140px;
+      height: 50px;
+      margin-top: -5px;
+    }
+  }
+
+  .menu_mb {
+    z-index: 9999;
+    background: #232265;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    button {
+      display: block;
+      width: 10%;
+      float: left;
+      background: none;
+      border: none;
+      color: #fff;
+      margin-top: 10px;
+      &:hover {
+        opacity: 0.9;
+      }
+
+      i {
+        font-size: 2.5rem;
+      }
+    }
+    a {
+      display: block;
+      width: 90%;
+      float: left;
+      text-align: center;
+      img {
+        width: 111px;
+        height: 44px;
+      }
+    }
+  }
+
+  nav {
+    margin-top: 20px;
+    float: right;
+
+    .header__menu {
+      display: flex;
+
+      &--item {
+        display: block;
+        padding: 15px 0;
+        font-size: 1.5rem;
+        z-index: 999;
+
+
+        &:not(:last-child) {
+          margin-right: 1.5rem;
+        }
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .header__search {
+    width: 1000px;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translateY(50%) translateX(-50%);
+    text-align: center;
+    z-index: 999;
+    @include screen(xs) {
+      width: 100%;
+      top: 10%;
+    }
+    @include over_screen (sm) {
+      top: 0;
+      width: 100%;
+    }
+    @include over_screen(md) {
+      width: 100%;
+      top: 20%;
+    }
+
+    &--title {
+      font-size: 5rem;
+      color: #fff;
+      margin-bottom: 20px;
+
+      @include screen(xs) {
+        font-size: 2rem;
+      }
+      @include over_screen (sm) {
+        font-size: 3rem;
+      }
+      @include over_screen(md) {
+        font-size: 3rem;
+      }
+    }
+
+    .header__search--form {
+      display: flex;
+      @include screen(xs) {
+        display: block;
+        padding: 0 15px;
+      }
+      @include over_screen (sm) {
+        display: block;
+        padding: 0 15px;
+      }
+      @include over_screen(md) {
+        padding: 0 15px;
+      }
+
+      .form__keyword {
+        width: 60%;
+        margin-right: 20px;
+        position: relative;
+        @include screen (xs) {
+          width: 100%;
+        }
+        @include over_screen(md) {
+          width: 50%;
+        }
+
+        i {
+          position: absolute;
+          right: 25px;
+          top: 52%;
+          font-size: 2.2rem;
+          color: #fb236a;
+          @include screen(xxs) {
+            display: none;
+          }
+          @include screen(xs) {
+            top: 35%;
+          }
+        }
+      }
+      .form__local {
+        width: 33%;
+        margin-right: 20px;
+        position: relative;
+        @include screen (xs) {
+          width: 100%;
+        }
+
+        i {
+          position: absolute;
+          right: 25px;
+          top: 52%;
+          font-size: 2.2rem;
+          color: #fb236a;
+          @include screen(xxs) {
+            display: none;
+          }
+          @include screen(xs) {
+            top: 35%;
+          }
+        }
+      }
+      .form_button {
+        width: 6%;
+        display: flex;
+        align-items: flex-end;
+        @include screen (xs) {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        @include over_screen (sm) {
+          justify-content: center;
+        }
+
+        button {
+          height: 60px;
+          border: none;
+          padding: 2px 17px;
+          border-radius: 5px;
+          background: #8b91dd;
+          transition: 0.5s;
+          @include screen(xs) {
+            display: flex;
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #fff;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+            border-radius: 15px;
+          }
+          @include over_screen (sm) {
+            display: flex;
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #fff;
+            align-items: center;
+          }
+
+          &:hover {
+            background: #fb236a;
+            transition: 0.5s;
+          }
+          i {
+            font-size: 2.5rem;
+            color: #fff;
+            @include screen(xs) {
+              margin-right: 5px;
+            }
+          }
+        }
+      }
+
+      .form-control {
+        @include screen (xs) {
+          margin-bottom: 15px;
+        }
+        @include over_screen (sm) {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+
+      }
+
+      .form__title {
+        display: block;
+        font-size: 1.6rem;
+        text-align: left;
+        color: #d5d8f3;
+        margin-bottom: 15px;
+        @include screen (xs) {
+          display: none;
+        }
+      }
+      input {
+        width: 100%;
+        height: 60px;
+        border: none;
+        border-radius: 5px;
+        color: #444;
+        font-size: 1.6rem;
+        padding: 15px;
+      }
+
+
+
+    }
+  }
+
+
+}

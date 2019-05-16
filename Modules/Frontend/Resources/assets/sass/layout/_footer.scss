@@ -1,0 +1,95 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer {
+  //background: #24324a;
+  .footer__mid {
+    background: #24324a;
+    padding: 30px 0;
+
+    .footer__logo {
+      margin-bottom: 20px;
+      img {
+        width: 160px;
+        height: 63px;
+      }
+    }
+    .footer__title {
+      font-size: 1.6rem;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+    .footer__list {
+
+      font-size: 1.3rem;
+      li {
+        margin-bottom: 8px;
+        a {
+          color: #8a99b3;
+          display: block;
+          padding-left: 24px;
+          position: relative;
+          -webkit-transition: all .4s ease 0s;
+          transition: all .4s ease-in-out 0s;
+
+          &:before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 15px;
+            background: #8a99b3;
+            left: 0;
+            top: 6px;
+            height: 1px;
+            -webkit-transition: all .4s ease 0s;
+            transition: all .4s ease-in-out 0s;
+
+          }
+          &:hover {
+            padding-left: 36px;
+            -webkit-transition: all .4s ease 0s;
+            transition: all .4s ease-in-out 0s;
+            color: #fff;
+            &:before {
+              width: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer__bottom {
+    background: #1d293e;
+  }
+
+  .footer__info {
+    text-align: center;
+    padding: 8px 0;
+    color: #6a7d9b;
+    font-size: 1.2rem;
+    line-height: 24px;
+  }
+
+  address {
+    p {
+      color: #8a99b3;
+      font-size: 1.2rem;
+      font-style: normal;
+      margin-bottom: 15px;
+
+      i {
+        margin-right: 3px;
+      }
+    }
+  }
+  .footer__social {
+    margin: 20px 0;
+    a {
+      color: #8a99b3;
+      font-size: 1.6rem;
+      margin-right: 15px;
+    }
+  }
+
+}
